@@ -2,10 +2,13 @@
 @import "status-bar.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import "variable.css";
+@import "screens/screen-header.css";
+@import "screens/friends.css";
 
 @import "components/nav-bar.css";
 body{
     font-family: 'Roboto', sans-serif;
+    height : 1000vh
 }
 
 .welcome-header {
