@@ -14,7 +14,7 @@
             <i class="fas fa-wifi"></i>
         </div>
         <div class = "status-bar__column">
-            <span>18:24</span>
+            <span id ="clock">clock</span>
         </div>
         <div class = "status-bar__column">
             <span>11%</span>
@@ -23,44 +23,46 @@
         </div>
     </div>
 
-    <header class = "screen-header">
-        <h1 class = "screen-header_title">Friends</h1>
-        <div class = "screen-header_icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
+    <header class="screen-header">
+        <h1 class="screen-header_title">chats</h1>
+        <div class="screen-header_icons">
+            <span><i class="fas fa-search-location fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span><i class="fas fa-cogs fa-lg"></i></span>
         </div>
-    </header>
+    </header>   
 
-    <a id= "Friends-Display-link">
+    <a id="friend-display_link">
         <i class="fas fa-info-circle"></i>
-        Friends' Names Display
+        friends Name's Display
         <i class="fas fa-chevron-right"></i>
     </a>
 
-    <main class = "friends-screen">
-        <div class = "user-component">
-            <div class = "user-component-column">
-            <img src = "https://play-lh.googleusercontent.com/zZYZV8Vj-hGDNTeJwFRrIqQ8UxzjyeXaubTXfjf1cTVei79PZoNhwSFXkwOzWsVpESTu=w240-h480-rw"
-                class = "user-component-avatar"/>
-            <div class = "user-component-text">
-                <h4>Ha Min</h4>
-            </div>
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class = "user-component__class">
+            <img src="https://img.insight.co.kr/static/2021/06/24/700/img_20210624100429_p4ns1io8.webp"
+                class = "user-component__avatar"/>
         </div>
-        <div class= "user-component"></div>
+        <div class="user-component__title">
+            <h4>HA MIN</h4>
+        </div>
+        </div>
+        <div class = "user-component__column"></div>
     </div>
     </main>
 
     <nav class = "nav">
         <ul class = "nav_list">
-            <li class = "nav_buttom"><a class = "nav_link" href =  "friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class = "nav_buttom"><a class = "nav_link" href =  "#">
-                <span class = "nav_nofitication">1</span>
-                <i class="fas fa-comment fa-2x"></i></a></li>
-            <li class = "nav_buttom"><a class = "nav_link" href =  "#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class = "nav_buttom"><a class = "nav_link" href =  "#">
-                <span class = "nav_spot"></span>
-                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+            <li class = "nav_buttom"><a class = "nav_link" href =  "index.html"><i class="far fa-user-injured fa-2x"></i></a></li>
+            <li class = "nav_buttom"><a class = "nav_link" href =  "chats.html">
+                <span class="nav_notification">758</span>
+                <i class="fas fa-comments-dollar fa-2x"></i></a></li>
+            <li class = "nav_buttom"><a class = "nav_link" href =  "find.html"><i class="fab fa-searchengin fa-2x"></i></a></li>
+            <li class = "nav_buttom"><a class = "nav_link" href =  "more.html">
+                <span class="nav_notification2"> </span>
+                <i class="fas fa-ellipsis-v fa-2x"></i></a></li>
         </ul>
     </nav>
 
