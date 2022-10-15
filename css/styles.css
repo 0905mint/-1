@@ -5,6 +5,7 @@
 @import"screens/screen-header.css";
 @import"screens/friends.css";
 @import "components/nav-bar.css";
+@import"user-components";
 
 
 body{
