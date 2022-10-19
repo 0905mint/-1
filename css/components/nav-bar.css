@@ -9,17 +9,17 @@
 }
 
 
-.nav_list {
+.nav__list {
     display : flex;
     justify-content: space-between;
 }
 
-.nav_link {
+.nav__link {
     color: #2e363e;
     position: relative;
 }
 
-.nav_notification {
+.nav__notification {
     background-color: tomato;
     width: 30px;
     height: 30px;
@@ -34,7 +34,7 @@
     bottom: 15px;
 }
 
-.nav_notification2 {
+.nav__notification2 {
     background-color: tomato;
     width: 10px;
     height: 10px;

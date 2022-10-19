@@ -6,11 +6,11 @@
     padding-top: 40px;
 }
 
-.screen-header_title {
+.screen-header__title {
     font-size: 32px;
     font-weight: 600;
 }
 
-.screen-header_icons span {
+.screen-header__icons span {
     margin-left: 25px;
 }
