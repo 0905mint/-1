@@ -9,6 +9,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import"screens/find.css";
+@import"screens/chat.css";
 body{
     font-family: 'Roboto', sans-serif;
     height: 1000vh;
